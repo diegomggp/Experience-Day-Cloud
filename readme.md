@@ -127,5 +127,6 @@ Esto ejecutará la app exponiendo por la ip externa que le asigne GCP y puerto q
 http://34.38.22.122:80
 ```
 
-- Comprobamos así que nuestro servicio personalizado está levantado y accesible públicamnete desde intenet
+- Comprobamos así que nuestro servico está levantado y accesible públicamente desde intenet:
 
+![Alt text](image-16.png)
