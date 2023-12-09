@@ -26,7 +26,7 @@ Por tanto, usaremos:
 
 - Selecionamos Compute Engine
 
-![Alt text](images/images/image.png)
+![Alt text](images/image.png)
 
 
 - Seleccionamos Crear instancia
