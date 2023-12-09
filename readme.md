@@ -25,36 +25,45 @@ Por tanto, usaremos:
 ### Paso 2 - Crear una instancia de "Compute Engine":
 
 - Selecionamos Compute Engine
-![Alt text](image.png)
+
+![Alt text](images/images/image.png)
 
 
 - Seleccionamos Crear instancia
-![Alt text](image-1.png)
+
+![Alt text](images/image-1.png)
 
 
 - Le damos un nombre a la instancia, y selecionamos región `europe-west1 (Belgica)`
 - Dejamos la configuración y tipo de máquina en las que vienen por defecto
-![Alt text](image-2.png)
+
+![Alt text](images/image-2.png)
 
 - En la seccion de disco de arranque le damos a cambiar y elegimos `Ubuntu`:
-![Alt text](image-9.png)
+
+![Alt text](images/image-9.png)
 
 - En Firewall, marcamos permitir tráfico HTTP y HTTPS y damos a "Crear"
-![Alt text](image-4.png)
+
+![Alt text](images/image-4.png)
 
 - Cuando termine de crearse la veremos en estado operativo, en verde. Y la seleccionamos
-![Alt text](image-6.png)
+
+![Alt text](images/image-6.png)
 
 ### Paso 3 - Conectar a nuestra instancia de "Compute Engine":
 
 - Aquí seleccionamos SSH para conectarnos a la máquina
-![Alt text](image-7.png)
+
+![Alt text](images/image-7.png)
 
 - Seleccionamos "Autorizar"
-![Alt text](image-10.png)
+
+![Alt text](images/image-10.png)
 
 - Y ya tenemos lista nuestra terminal de ubuntu en la máquina virtual
-![Alt text](image-11.png)
+
+![Alt text](images/image-11.png)
 
 ### Paso 4 - Clonar el repo :
 
@@ -80,7 +89,7 @@ ls
 ```
 Este será el aspecto:
 
-![Alt text](image-12.png)
+![Alt text](images/image-12.png)
 
 ### Paso 5 - Configurar la app, la máquina y lanzar la app:
 
@@ -91,7 +100,7 @@ nano app.py
 ```
 - En el editor, metemos nuestro nombre, p.ej: Diego
 
-![Alt text](image-13.png)
+![Alt text](images/image-13.png)
 
 - Guardamos los cambios:
 ```bash
@@ -109,7 +118,7 @@ sudo python3 app.py
 ```
 - Al finalizar, veremos algo así en la terminal:
 
-![](image-15.png)
+![Alt text](images/image-15.png)
 
 Esto ejecutará la app exponiendo por la ip externa que le asigne GCP y puerto que se define en nuestro archivo app.py
 
@@ -118,7 +127,7 @@ Esto ejecutará la app exponiendo por la ip externa que le asigne GCP y puerto q
 
 - Ahora vamos a la vista general de máquinas virtuales y copiamos la ip externa, en el caso de el ejemplo es ``34.38.22.122``
 
-![Alt text](image-14.png)
+![Alt text](images/image-14.png)
 
 
 - En el navegador introducimos esta URL (cambiando cada uno a la ip de su máquina):
@@ -129,4 +138,4 @@ http://34.38.22.122:80
 
 - Comprobamos así que nuestro servico está levantado y accesible públicamente desde intenet:
 
-![Alt text](image-16.png)
+![Alt text](images/image-16.png)
