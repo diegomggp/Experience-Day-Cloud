@@ -37,7 +37,7 @@ Por tanto, usaremos:
 ![Alt text](images/image-1.png)
 
 
-- Le damos un nombre a la instancia, con el formato **"mv-nombre-apellido"**, y selecionamos región `europe-west1 (Belgica)`
+- Le damos un nombre a la instancia, con el formato **"mv-nombre-apellido"**, y selecionamos una región (por ejemplo `europe-west1 (Belgica)`)
 - Dejamos la configuración y tipo de máquina en las que vienen por defecto
 
 ![Alt text](images/image-2.png)
