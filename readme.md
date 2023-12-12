@@ -3,7 +3,7 @@
 
 ## Objetivo
 
- Vamos a desplegar de forma sencilla y rápida una web app hecha en python para que sea accesible públicamente desde internet. 
+ En este taller vamos a desplegar de forma sencilla y rápida una página web hecha en python para que sea accesible públicamente desde internet. 
 
 Lo haremos en el proveedor cloud "Google Cloud Platform" y usaremos el servicio de máquinas virtuales "Compute Engine".
 
