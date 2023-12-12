@@ -2,14 +2,17 @@
 
 
 ## Objetivo
-Vamos a editar y desplegar en el proveedor "Google Cloud Platform" una web app sencilla hecha en python para que sea accesible públicamnete desde internet. 
 
-Para ello usaremos el servicio de máquinas virtuales de Google Cloud Platform (en adelante GCP) "Compute Engine".
+ Vamos a desplegar de forma sencilla y rápida una web app hecha en python para que sea accesible públicamente desde internet. 
 
-Configuraremos la "Compute Engine" con todo lo necesario para desplegar la aplicación, y por último accederemos a la ip pública de la máquina para ver nuestra página desplegada desde un navegador.
+Lo haremos en el proveedor cloud "Google Cloud Platform" y usaremos el servicio de máquinas virtuales "Compute Engine".
 
-Una vez estemos en la máquina, nos clonaremos los archivos necesarios del repositorio de Git https://github.com/diegomggp/Experience-Day-Cloud.git
+Configuraremos la "Compute Engine" con todo lo necesario para desplegar la aplicación y editaremos la app para darle un toque personal.
+
+Desde la máquina, nos clonaremos los archivos necesarios del repositorio de Git https://github.com/diegomggp/Experience-Day-Cloud.git
 para poder usarlos en la máquina.
+
+Y por último accederemos a la ip pública de la máquina para ver nuestra página desplegada desde un navegador.
 
 Por tanto, usaremos:
 - La consola (interfaz gráfica de GCP)
@@ -34,7 +37,7 @@ Por tanto, usaremos:
 ![Alt text](images/image-1.png)
 
 
-- Le damos un nombre a la instancia, y selecionamos región `europe-west1 (Belgica)`
+- Le damos un nombre a la instancia, con el formato **"mv-nombre-apellido"**, y selecionamos región `europe-west1 (Belgica)`
 - Dejamos la configuración y tipo de máquina en las que vienen por defecto
 
 ![Alt text](images/image-2.png)
