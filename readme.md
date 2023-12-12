@@ -136,7 +136,7 @@ Esto ejecutará la app exponiendo por la ip externa que le asigne GCP y puerto q
 - En el navegador introducimos esta URL (cambiando cada uno a la ip de su máquina):
 
 ```bash
-http://34.38.22.122:80
+http://34.38.22.122
 ```
 
 - Comprobamos así que nuestro servico está levantado y accesible públicamente desde intenet:
